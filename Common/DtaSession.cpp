@@ -133,12 +133,12 @@ again:
 	// w/o the timeout the session may wedge and require a power-cycle,
 	// e.g., when interrupted by ^C. 60 seconds is inconveniently long,
 	// but revert may require that long to complete.
-	if (settimeout) {
-		cmd->addToken(OPAL_TOKEN::STARTNAME);
-		cmd->addToken("SessionTimeout");
-		cmd->addToken(60000);
-		cmd->addToken(OPAL_TOKEN::ENDNAME);
-	}
+	//if (settimeout) {
+	//	cmd->addToken(OPAL_TOKEN::STARTNAME);
+	//	cmd->addToken("SessionTimeout");
+	//	cmd->addToken(60000);
+	//	cmd->addToken(OPAL_TOKEN::ENDNAME);
+	//}
 
     cmd->addToken(OPAL_TOKEN::ENDLIST); // ]  (Close Bracket)
     cmd->complete();

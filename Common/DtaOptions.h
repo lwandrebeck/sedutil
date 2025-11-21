@@ -17,7 +17,7 @@ You should have received a copy of the GNU General Public License
 along with sedutil.  If not, see <http://www.gnu.org/licenses/>.
 
 * C:E********************************************************************** */
-
+#include <cstdint>
 #ifndef _DTAOPTIONS_H
 #define	_DTAOPTIONS_H
 
